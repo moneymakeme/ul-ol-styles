@@ -1,0 +1,45 @@
+body{
+    justify-content: center;
+    display: flex;
+    margin: 1px;
+}
+
+.content{
+    font-size: 20px;
+}
+ul{
+    background-color: hwb(180 5% 17%);
+    padding: 25px;
+    list-style-type: none;
+}
+
+ul li{
+    color: burlywood;
+    background-color: brown;
+    margin: 8px;
+}
+ul li:hover{
+    background-color: lawngreen;
+    text-decoration: underline;
+    color: blueviolet;
+    margin: 8px;
+}
+
+ol{
+    list-style-type: none;
+    background-color: black;
+    color: aliceblue;
+    margin: 5px;
+    padding: 18px;
+}
+ol li{
+    color: aqua;
+    margin: 8px;
+    background-color: yellowgreen;
+}
+
+ol li:hover{
+background-color: white;
+color: black;
+text-decoration: underline;
+}
